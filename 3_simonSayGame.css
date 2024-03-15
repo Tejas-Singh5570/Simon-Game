@@ -1,0 +1,250 @@
+body{
+    text-align: center;
+    
+}
+.scoreTracker{
+    display: inline-block;
+    position: absolute;
+    right: 14rem;
+    
+}
+.boxContainer{
+    display: flex;
+    /* border: 3px solid green; */
+    justify-content: center;
+}
+
+.tutorial{
+    display: inline-block;
+    position: absolute;
+    left: 16rem;
+    bottom: 2rem;
+}
+
+.royaty{
+    display: inline;
+    position: absolute;
+    bottom: .0rem;
+    right: 14rem;
+    line-height: 35px;
+    font-size: 19px;
+}
+
+/* .box{
+    height: 10rem;
+    width: 10rem;
+    border: 4px solid black;
+    margin: .8rem;
+    border-radius: 2rem;
+} */
+
+.yellow{
+    height: 10rem;
+    width: 10rem;
+    border: 4px solid black;
+    margin: .8rem;
+    border-radius: 2rem;
+
+    background-color: #d9f24a;
+    box-shadow: 15px 10px 7px ;
+    transition: all .2s;
+    
+}
+.yellow:hover{
+    transform: scale(.95);
+    box-shadow: 0px 0px 0px;
+}.green{
+    height: 10rem;
+    width: 10rem;
+    border: 4px solid black;
+    margin: .8rem;
+    border-radius: 2rem;
+
+    background-color: rgb(60, 249, 17);
+    box-shadow: 15px 10px 7px ;
+    transition: all .2s;
+
+}
+.green:hover{
+    transform: scale(.95);
+    box-shadow: 0px 0px 0px;
+}
+.blue{
+    height: 10rem;
+    width: 10rem;
+    border: 4px solid black;
+    margin: .8rem;
+    border-radius: 2rem;
+
+    background-color: rgb(49, 218, 248);
+    box-shadow: 15px 10px 7px ;
+    transition: all .2s;
+
+}
+.blue:hover{
+    transform: scale(.95);
+    box-shadow: 0px 0px 0px;
+}
+.pink{
+    height: 10rem;
+    width: 10rem;
+    border: 4px solid black;
+    margin: .8rem;
+    border-radius: 2rem;
+
+    background-color: rgb(241, 99, 246);
+    box-shadow: 15px 10px 7px ;
+    transition: all .2s;
+
+    
+}
+.pink:hover{
+    transform: scale(.95);
+    box-shadow: 0px 0px 0px;
+}
+
+.flash{
+    background-color: white;
+}
+
+
+#StartBtn{
+    display: inline-block;
+    position: absolute;
+    bottom: 3rem;
+    left: 41.4rem;
+    background-color: greenyellow;
+    transform: scale(1.3);
+    border-radius: 5px;
+    box-shadow: 4px 5px 7px;
+}
+
+/* responsiveness */
+
+@media((max-width: 1261px) and (max-height: 800px)){
+    
+    .boxContainer{
+        display: flex;
+        position: absolute;
+        top: 13rem;
+        left: 1rem;
+        /* border: 3px solid green; */
+        justify-content: center;
+    
+    }
+
+    .yellow{
+        height: 7rem;
+        width: 7rem;
+        border: 3px solid black;
+        margin: 1.3rem;
+        border-radius: 1.5rem;
+    
+        background-color: #d9f24a;
+        box-shadow: 15px 10px 7px ;
+        transition: all .2s;
+        
+    }
+    .yellow:hover{
+        transform: scale(1);
+        box-shadow: 15px 10px 7px;
+    }.green{
+        height: 7rem;
+        width: 7rem;
+        border: 3px solid black;
+        margin: 1.3rem;
+        border-radius: 1.5rem;
+    
+        background-color: rgb(60, 249, 17);
+        box-shadow: 15px 10px 7px ;
+        transition: all .2s;
+    
+    }
+    .green:hover{
+        transform: scale(1);
+        box-shadow: 15px 10px 7px;
+    }
+    .blue{
+        height: 7rem;
+        width: 7rem;
+        border: 3px solid black;
+        margin: 1.3rem;
+        border-radius: 1.5rem;
+    
+        background-color: rgb(49, 218, 248);
+        box-shadow: 15px 10px 7px ;
+        transition: all .2s;
+    
+    }
+    .blue:hover{
+        transform: scale(1);
+        box-shadow: 15px 10px 7px;
+    }
+    .pink{
+        height: 7rem;
+        width: 7rem;
+        border: 3px solid black;
+        margin: 1.3rem;
+        border-radius: 1.5rem;
+    
+        background-color: rgb(241, 99, 246);
+        box-shadow: 15px 10px 7px ;
+        transition: all .2s;
+    
+        
+    }
+    .pink:hover{
+        transform: scale(1);
+        box-shadow: 15px 10px 7px;
+    }
+ 
+
+    .main_heading{
+        line-height: 8px;
+    }
+    .tutorial{
+        display: inline-block;
+        position: absolute;
+        left: 32px;
+        bottom: 32px;
+        line-height: 8px;
+        font-size: 20px;
+    }
+    
+    .royaty{
+        display: inline;
+        position: absolute;
+        bottom: -10px;
+        right: 32px;
+        font-size: 20px;
+    }
+
+    .scoreTracker{
+        display: inline-block;
+        position: absolute;
+        right: 5.2rem;
+        top: 7rem;
+        /* border: 3px solid black; */
+        line-height: 8px;
+    }
+
+    #StartBtn{
+        display: inline-block;
+        position: absolute;
+        bottom: 9rem;
+        left: 9.1rem;
+        background-color: greenyellow;
+        transform: scale(2);
+        border-radius: 5px;
+        box-shadow: 4px 5px 7px;
+    }
+
+    .flash{
+        background-color: white;
+    }
+
+    #h3{
+        line-height: 19px;
+    }
+
+}
